@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(150deg, #2E3192,#1BFFFF);
+    height: 100vh;
+}
+
+#container-position{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* width: 450px; */
+    height: 480px;
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.container-heading{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+    margin: 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-decoration{
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgba(255,255,255,0.7);
+    font-size: larger;
+}
+
+.input-password{
+    position: relative;
+}
+
+.input-password input{
+    padding-right: 40px;
+}
+
+.input-decoration:focus{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.bi{
+    position:absolute;
+    display: block;
+    top: 50%;                 /* Center the icon vertically */
+    left:80%;
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    cursor: pointer; 
+}
+
+.btn{
+    margin: 10px;
+    width: 100px;
+}
+
+.forgotten-password{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: small;
+    text-align: center;
+}
+
+.signup{
+    margin: 12px;
+    color: white;
+}
+
+.signup-link{
+    text-decoration: none;
+    color:#00BFFF;
+    transition: color 0.3s ease;
+}
+.signup-link:hover{
+    color:black;
+}
